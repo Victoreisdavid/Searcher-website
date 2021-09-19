@@ -1,0 +1,28 @@
+{
+  "name": "searcher-website",
+  "version": "1.0.0",
+  "description": "Website do Searcher",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victoreisdavid/Searcher-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victoreisdavid/Searcher-website/issues"
+  },
+  "homepage": "https://github.com/Victoreisdavid/Searcher-website#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

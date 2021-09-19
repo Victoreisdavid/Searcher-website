@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+ --sh_blue: #264ced;
+ --denim: #275DAD;
+ --denim_hovered: #275cadad; 
+ --chrome-yellow: #FAA916;
+ --black: #0C1618;
+ --textcolor: #444;
+}
+
+* {
+ margin: 0px;
+ color: var(--black);
+ font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+ position: absolute;
+ width: 100%;
+ background-color: var(--sh_blue);
+}
+
+nav a {
+ display: inline-block;
+ padding: 18px 18px;
+ text-align: center;
+ text-decoration: none;
+ font-weight: bold;
+ font-size: 1.2em;
+ color: white;
+}
+
+nav a:first-child {
+ margin-left: 16px;
+}
+
+nav a:hover {
+ color: var(--chrome-yellow)
+}
+
+.centeredImg {
+ display: flex;
+ width: 100%;
+ align-items: center;
+ justify-content: center;
+ margin-top: 60px;
+}
+
+.centeredImg .imgText > h1, p {
+ text-align: center;
+ color: var(--chrome-yellow)
+}
+
+a {
+ text-decoration: none;
+ color: var(--denim)
+}
+
+a:hover {
+ color: var(--denim_hovered)
+}
+
+div.middle {
+ box-shadow: 0px -2px 2px #0c16180f;
+ padding: 10px;
+}
+
+div.middle h1, h2, h3 {
+ text-align: center;
+ margin-bottom: 5px;
+ color: var(--textcolor)
+}
+
+div.middle p {
+ font-size: 1.2em;
+ color: var(--textcolor);
+ margin-bottom: 3px;
+ text-align: left;
+ line-height: 1.5em;
+}
+
+div.middle .centered {
+ text-align: center;
+}
+
+.mainlist {
+ width: 60%;
+ margin: auto;
+ font-weight: 500;
+ font-size: 1.1em;
+}
+
+.maininfo {
+ width: 50%;
+ margin: auto;
+ font-weight: 500;
+ font-size: 1.1em;
+}
+
+.command {
+ width: 50%;
+ margin: auto;
+ margin-bottom: 15px;
+ border-radius: 5px;
+ padding: 6px;
+ box-shadow: 0px 1px 6px 1px #0000002e
+}
+
+@media screen and (max-width: 700px) {
+ .centeredImg {
+  flex-direction: column;
+  margin-bottom: 8px;
+ }
+ .imgText {
+  margin-top: -32px;
+ }
+ .mainlist {
+  width: 100%;
+ }
+ .command {
+  width: 95%;
+ }
+ .maininfo {
+  width: 95%;
+ }
+}
