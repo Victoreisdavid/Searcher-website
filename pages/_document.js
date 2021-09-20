@@ -19,6 +19,7 @@ class MyDocument extends Document {
       <nav>
        <a href="/">Início</a>
        <a href="/commands">Comandos</a>
+       <a href="/faq/guidelines">Guidelines</a>
       </nav>
       <br />
       <Main />

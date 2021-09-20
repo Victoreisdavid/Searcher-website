@@ -1,4 +1,7 @@
 import Lupa from "../imagens/lupa_sem_fundo.png"
+import Free_icon from "../imagens/tax-free.png"
+import Secure_icon from "../imagens/secure-shield.png"
+import OpenSource_icon from "../imagens/github_logo.png"
 import Img from "next/image"
 import Head from "next/head"
 export default function IndexPage() {
@@ -21,28 +24,61 @@ export default function IndexPage() {
       <p>Faça pesquisas dentro do discord.</p>
      </div>
     </div>
+    <button className="centeredBtn" onClick={(d) => {
+     window.location.href = "https://discord.com/api/oauth2/authorize?client_id=886046032616624138&permissions=277092879424&scope=bot%20applications.commands"
+    }}>Adicionar</button>
    </header>
    <main>
     <div className="middle">
      <h1>Conheça o Searcher</h1>
-     <p className="centered">Um bot do discord feito para fazer pesquisas nos mais diversos lugares.</p>
-     <h2 className="centered">Por quê usar o Searcher?</h2>
-     <p>As vezes ninguém quer sair do discord pra pesquisar alguma informação, e as vezes é até demorado achar ela. O Searcher tem o objetivo de economizar esse tempo mostrando resultados compactos, dinâmicos e precisos e também curiosidades e outras coisas legais.</p>
-     <h2 className="centered">Um pouco mais sobre</h2>
-     <h3> - Código aberto</h3>
-     <p>O Searcher possui seu código aberto, ou seja, todos podem ver como ele foi feito e para os desconfiados também é uma boa, já que podem olhar o código e ver tudo o que ele faz e todas as informações que ele guarda.</p>
-     <p>Todos também podem contribuir com o projeto reportando bugs, ajudando a melhorar o código, etc. <a href="https://github.com/Victoreisdavid/Searcher_bot" target="_blank">Clique aqui pra acessar o código fonte do Searcher.</a></p>
-     <h3> - Seguro e estável</h3>
-     <p>O Searcher dá muita prioridade à segurança dos servidores, tentando ao máximo evitar possibilidades de exibir conteúdos NSFW nas pesquisas.</p>
-     <h1>Principais características</h1>
-     <div className="mainlist">
-      <ul>
-       <li>Totalmente grátis.</li>
-       <li>Seguro para os servidores.</li>
-       <li>Código aberto.</li>
-       <li>Focado principalmente para brasileiros.</li>
-      </ul>
+     <p className="centered">O Seacher foi feito para ajudar pessoas a fazer pesquisas direto no discord, de forma fácil e segura.</p>
+     <h2>Principais características</h2>
+     <div className="cardbox">
+      <div className="Imgcard">
+       <div className="img">
+        <Img 
+         src={Free_icon}
+         width="120"
+         height="120"
+        />
+       </div>
+       <div className="cardText">
+        <h1>Grátis</h1>
+        <p>O Searcher é totalmente gratuito, você não paga para usar.</p>
+       </div>
+      </div>
      </div>
+     <div className="cardbox">
+      <div className="Imgcard">
+       <div className="img">
+        <Img 
+         src={Secure_icon}
+         width="120"
+         height="120"
+        />
+       </div>
+       <div className="cardText">
+        <h1>Seguro</h1>
+        <p>O Searcher não representa nenhuma ameaça a servidores.</p>
+       </div>
+      </div>
+     </div>
+     <div className="cardbox">
+      <div className="Imgcard">
+       <div className="img">
+        <Img 
+         src={OpenSource_icon}
+         width="120"
+         height="120"
+        />
+       </div>
+       <div className="cardText">
+        <h1>Open-source</h1>
+        <p>O Searcher é um projeto de <a href="https://github.com/Victoreisdavid/Searcher_bot" target="_blank">código aberto</a>, todos podem ver.</p>
+       </div>
+      </div>
+     </div>
+     <p><strong>* Todas as imagens (exceto a do cabeçalho do website) foram pegas em <a href="https://flaticon.com" target="_blank">flaticon.com</a>.</strong></p>
     </div>
    </main>
   </div>

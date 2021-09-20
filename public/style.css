@@ -5,6 +5,7 @@
  --denim: #275DAD;
  --denim_hovered: #275cadad; 
  --chrome-yellow: #FAA916;
+ --chrome-yellow-hovered: #faaa1638;
  --sh_blue_hovered: #1e3bbd;
  --black: #0C1618;
  --textcolor: #444;
@@ -54,6 +55,26 @@ nav a:hover {
  color: var(--chrome-yellow)
 }
 
+.centeredBtn {
+ display: block;
+ margin: auto;
+ border: none;
+ text-align: center;
+ background-color: var(--chrome-yellow);
+ color: white;
+ font-weight: bold;
+ border-radius: 5px;
+ font-size: 1.2em;
+ text-decoration: none;
+ padding: 15px;
+ transition-duration: 400ms;
+}
+
+.centeredBtn:hover {
+ background-color: white;
+ color: var(--chrome-yellow)
+}
+
 a {
  text-decoration: none;
  color: var(--denim)
@@ -64,18 +85,10 @@ a:hover {
 }
 
 div.middle {
- box-shadow: 0px -2px 2px #0c16180f;
- padding: 10px;
+ padding: 8px;
 }
 
-div.middle h2, h3 {
- text-align: left;
- margin-left: 5px;
- margin-bottom: 5px;
- color: var(--textcolor)
-}
-
-div.middle h1 {
+div.middle h1, h2, h3 {
  text-align: center;
  margin-bottom: 5px;
  color: var(--textcolor)
@@ -92,6 +105,44 @@ div.middle p {
 
 div.middle .centered {
  text-align: center;
+}
+
+div.middle .cardbox {
+ width: 50%;
+ padding: 6px;
+ margin: auto;
+ margin-bottom: 15px;
+ border-radius: 6px;
+ box-shadow: 0px 0px 2px 1px #00000042;
+}
+
+div.middle .cardbox .Imgcard {
+ display: flex;
+ width: 100%;
+ align-items: center;
+}
+
+div.middle .cardbox .Imgcard .img {
+ min-width: 95px;
+}
+
+div.middle .cardbox .cardText {
+ display: flex;
+ flex-direction: column;
+}
+
+div.middle .textpaper {
+ max-width: 800px;
+ min-width: 180px;
+ margin: auto;
+ margin-top: 20px;
+ border-radius: 4px;
+ box-shadow: 0px 0px 2px 1px #00000042;
+ padding: 8px;
+}
+
+div.middle .textpaper h2 {
+ text-align: left;
 }
 
 .mainlist {
@@ -133,5 +184,8 @@ div.middle .centered {
  }
  .maininfo {
   width: 95%;
+ }
+ div.middle .cardbox {
+  width: 98%;
  }
 }
