@@ -26,7 +26,7 @@ export default function IndexPage() {
     <div className="middle">
      <h1>Conheça o Searcher</h1>
      <p className="centered">Um bot do discord feito para fazer pesquisas nos mais diversos lugares.</p>
-     <h2 className="centered">Por que usar o Searcher?</h2>
+     <h2 className="centered">Por quê usar o Searcher?</h2>
      <p>As vezes ninguém quer sair do discord pra pesquisar alguma informação, e as vezes é até demorado achar ela. O Searcher tem o objetivo de economizar esse tempo mostrando resultados compactos, dinâmicos e precisos e também curiosidades e outras coisas legais.</p>
      <h2 className="centered">Um pouco mais sobre</h2>
      <h3> - Código aberto</h3>
