@@ -33,7 +33,7 @@ export default function IndexPage() {
      <p>O Searcher possui seu código aberto, ou seja, todos podem ver como ele foi feito e para os desconfiados também é uma boa, já que podem olhar o código e ver tudo o que ele faz e todas as informações que ele guarda.</p>
      <p>Todos também podem contribuir com o projeto reportando bugs, ajudando a melhorar o código, etc. <a href="https://github.com/Victoreisdavid/Searcher_bot" target="_blank">Clique aqui pra acessar o código fonte do Searcher.</a></p>
      <h3> - Seguro e estável</h3>
-     <p>O Searcher dá muita prioridade a segurança dos servidores, tentando ao máximo evitar possibilidades de exibir conteúdos NSFW nas pesquisas.</p>
+     <p>O Searcher dá muita prioridade à segurança dos servidores, tentando ao máximo evitar possibilidades de exibir conteúdos NSFW nas pesquisas.</p>
      <h1>Principais características</h1>
      <div className="mainlist">
       <ul>
