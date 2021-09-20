@@ -5,6 +5,7 @@
  --denim: #275DAD;
  --denim_hovered: #275cadad; 
  --chrome-yellow: #FAA916;
+ --sh_blue_hovered: #1e3bbd;
  --black: #0C1618;
  --textcolor: #444;
 }
@@ -36,7 +37,8 @@ nav a:first-child {
 }
 
 nav a:hover {
- color: var(--chrome-yellow)
+ background-color: var(--sh_blue_hovered);
+ color: white;
 }
 
 .centeredImg {
@@ -66,7 +68,14 @@ div.middle {
  padding: 10px;
 }
 
-div.middle h1, h2, h3 {
+div.middle h2, h3 {
+ text-align: left;
+ margin-left: 5px;
+ margin-bottom: 5px;
+ color: var(--textcolor)
+}
+
+div.middle h1 {
  text-align: center;
  margin-bottom: 5px;
  color: var(--textcolor)
@@ -76,6 +85,7 @@ div.middle p {
  font-size: 1.2em;
  color: var(--textcolor);
  margin-bottom: 3px;
+ margin-left: 6px;
  text-align: left;
  line-height: 1.5em;
 }
