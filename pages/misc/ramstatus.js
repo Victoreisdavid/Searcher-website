@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Script from "next/script"
 import Graph from "react-chartist"
+import Chartist from "chartist"
 const URL = process.env.SEARCHER_WEBSERVER_URL
 
 export async function getServerSideProps() {
@@ -18,7 +19,16 @@ export default function ramStatus(props) {
         series: [props.ramData]
     }
     const OPTIONS =  {
-        fullWidth: true
+        fullWidth: true,
+        height: "400px",
+        showPoint: true,
+        showArea: true,
+        lineSmooth: Chartist.Interpolation.simple({
+            divisor: 2
+        }),
+        axisX: {
+            showGrid: false
+        }
     }
     return(
         <div>

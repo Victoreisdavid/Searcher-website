@@ -193,5 +193,7 @@ div.middle .textpaper h2 {
 #chart {
  margin: auto;
  margin-top: 70px;
- max-width: 800px
+ max-width: 800px;
+ border: 1px solid #0000002e;
+ padding: 7px;
 }
