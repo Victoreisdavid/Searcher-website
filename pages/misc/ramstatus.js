@@ -7,9 +7,13 @@ const URL = process.env.SEARCHER_WEBSERVER_URL
 export async function getServerSideProps() {
     const status = await fetch(URL)
     const parsedStatus = await status.json()
+    const max = Math.max(...parsedStatus)
+    const min = Math.min(...parsedStatus)
     return {
         props: {
-            ramData: parsedStatus
+            ramData: parsedStatus,
+            max_value: max * 1.03,
+            min_value: min * 0.99
         }
     }
 }
@@ -19,10 +23,12 @@ export default function ramStatus(props) {
         series: [props.ramData]
     }
     const OPTIONS =  {
-        fullWidth: true,
         height: "400px",
         showPoint: true,
         showArea: true,
+        onlyIntenger: true,
+        high: props.max_value,
+        low: props.min_value,
         lineSmooth: Chartist.Interpolation.simple({
             divisor: 2
         }),
