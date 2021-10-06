@@ -32,7 +32,7 @@ export default function IndexPage() {
                 <div className="middle">
                     <h1>Conheça o Searcher</h1>
                     <p className="centered">O Seacher foi feito para ajudar pessoas a fazer pesquisas direto no discord, de forma fácil e segura.</p>
-                    <h2>Principais características</h2>
+                    <h2 className="centered">Principais características</h2>
                     <div className="cardbox">
                         <div className="Imgcard">
                             <div className="img">
@@ -43,7 +43,7 @@ export default function IndexPage() {
                                 />
                             </div>
                             <div className="cardText">
-                                <h1>Grátis</h1>
+                                <h1 style={{textAlign: "left"}}>Grátis</h1>
                                 <p>O Searcher é totalmente gratuito, você não paga para usar.</p>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export default function IndexPage() {
                                 />
                             </div>
                             <div className="cardText">
-                                <h1>Seguro</h1>
+                                <h1 style={{textAlign: "left"}}>Seguro</h1>
                                 <p>O Searcher não representa nenhuma ameaça a servidores.</p>
                             </div>
                         </div>
@@ -73,12 +73,19 @@ export default function IndexPage() {
                                 />
                             </div>
                             <div className="cardText">
-                                <h1>Open-source</h1>
+                                <h1 style={{textAlign: "left"}}>Open-source</h1>
                                 <p>O Searcher é um projeto de <a href="https://github.com/Victoreisdavid/Searcher_bot" target="_blank">código aberto</a>, todos podem ver.</p>
                             </div>
                         </div>
                     </div>
                     <p><strong>* Todas as imagens (exceto a do cabeçalho do website) foram pegas em <a href="https://flaticon.com" target="_blank">flaticon.com</a>.</strong></p>
+                    <div className="camp_box">
+                        <h1>Objetivos do Searcher</h1>
+                        <h2>1. Searcher para programadores</h2>
+                        <p>&bull; O Searcher está dando suporte gradualmente a plataformas que programadores usam, como o <a href="https://chocolatey.org" target="_blank">chocolatey.</a></p>
+                        <h2>2. Searcher para estudantes</h2>
+                        <p>&bull; O Searcher está dando suporte gradualmente a plataformas usadas por estudantes.</p>
+                    </div>
                 </div>
             </main>
         </div>

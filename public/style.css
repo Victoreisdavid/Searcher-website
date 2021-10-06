@@ -168,6 +168,23 @@ div.middle .textpaper h2 {
  box-shadow: 0px 1px 6px 1px #0000002e
 }
 
+.camp_box {
+ width: 93%;
+ margin: auto;
+ margin-bottom: 17px;
+ border-radius: 5px;
+ padding: 8px;
+ box-shadow: 0px -2px 4px 0px #0000001f;
+}
+
+.camp_box  p, h2 {
+ text-align: left;
+}
+
+.camp_box  p {
+ margin-left: 23px !important;
+}
+
 @media screen and (max-width: 700px) {
  .centeredImg {
   flex-direction: column;

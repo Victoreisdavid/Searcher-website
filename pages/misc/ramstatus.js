@@ -24,6 +24,7 @@ export default function ramStatus(props) {
     }
     const OPTIONS =  {
         height: "400px",
+        fullWidth: true,
         showPoint: true,
         showArea: true,
         onlyIntenger: true,
