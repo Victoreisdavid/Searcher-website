@@ -67,12 +67,14 @@ nav a:hover {
  font-size: 1.2em;
  text-decoration: none;
  padding: 15px;
- transition-duration: 400ms;
+ transition: 700ms background-color;
 }
 
 .centeredBtn:hover {
+ color: var(--chrome-yellow);
  background-color: white;
- color: var(--chrome-yellow)
+ padding: 12px;
+ border: 2px solid var(--chrome-yellow);
 }
 
 a {
@@ -90,14 +92,14 @@ div.middle {
 
 div.middle h1, h2, h3 {
  text-align: center;
- margin-bottom: 5px;
+ margin-bottom: 8px;
  color: var(--textcolor)
 }
 
 div.middle p {
  font-size: 1.2em;
  color: var(--textcolor);
- margin-bottom: 3px;
+ margin-bottom: 8px;
  margin-left: 6px;
  text-align: left;
  line-height: 1.5em;

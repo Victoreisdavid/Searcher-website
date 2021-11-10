@@ -20,7 +20,7 @@ export default function IndexPage() {
                     />
                     <br />
                     <div className="imgText">
-                        <h1>SearcherBot</h1>
+                        <h1>Searcher</h1>
                         <p>Faça pesquisas dentro do discord.</p>
                     </div>
                 </div>
@@ -78,14 +78,10 @@ export default function IndexPage() {
                             </div>
                         </div>
                     </div>
+                    <h2>Porque usar o Searcher?</h2>
+                    <p>As vezes é chato sair do discord pra ir pesquisar algo que muitas vezes pode até demorar para carregar (dependendo do seu navegador).</p>
+                    <p>O Searcher tenta resolver esse problema, fazendo pesquisas de forma rápida e precisa, e sempre deixando bem claro a fonte da informação.</p>
                     <p><strong>* Todas as imagens (exceto a do cabeçalho do website) foram pegas em <a href="https://flaticon.com" target="_blank">flaticon.com</a>.</strong></p>
-                    <div className="camp_box">
-                        <h1>Objetivos do Searcher</h1>
-                        <h2>1. Searcher para programadores</h2>
-                        <p>&bull; O Searcher está dando suporte gradualmente a plataformas que programadores usam, como o <a href="https://chocolatey.org" target="_blank">chocolatey.</a></p>
-                        <h2>2. Searcher para estudantes</h2>
-                        <p>&bull; O Searcher está dando suporte gradualmente a plataformas usadas por estudantes.</p>
-                    </div>
                 </div>
             </main>
         </div>

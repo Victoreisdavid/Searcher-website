@@ -76,7 +76,7 @@ export default function commandsPage(props) {
           />
           <br />
           <div className="imgText">
-            <h1>SearcherBot</h1>
+            <h1>Searcher</h1>
             <p>Faça pesquisas dentro do discord.</p>
           </div>
         </div>

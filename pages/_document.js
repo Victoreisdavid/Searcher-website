@@ -11,7 +11,7 @@ class MyDocument extends Document {
       <Html lang="pt-br">
         <Head>
           <meta name="author" content="Victor Reis David" />
-          <meta name="description" content="Faça pesquisas no discord com o Searcher." />
+          <meta name="description" content="Searcher: faça pesquias dentro do discord de forma rápida e interativa. Chega de perder tempo!" />
           <meta name="keywords" content="discord bot, search, discord search, bot" />
           <meta name="robots" content="index,follow" />
         </Head>
