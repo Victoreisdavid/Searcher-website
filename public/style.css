@@ -143,8 +143,9 @@ div.middle .textpaper {
  padding: 8px;
 }
 
-div.middle .textpaper h2 {
+div.middle .textpaper h2, h3 {
  text-align: left;
+ margin-top: 8px;
 }
 
 .mainlist {

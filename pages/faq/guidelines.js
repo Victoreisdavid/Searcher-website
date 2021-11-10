@@ -18,6 +18,7 @@ export default function termsPage() {
                 <div className="middle">
                     <div className="textpaper">
                         <h1>Searcher - guidelines</h1>
+                        <p>&#128220; IMPORTANTE: leia também nossa <a href="/faq/privacy">Política de privacidade</a></p>
                         <p>Como todo bot, o Searcher pussui regras que são impostas a servidores e usuários que passarem a usar ele.</p>
                         <p>Você deve seguir estas regras, ou corre o risco de ser proibido de usar o Searcher.</p>
                         <h2 style={{ fontSize: "1.7em", textAlign: "center" }}>Tópicos</h2>
@@ -32,7 +33,7 @@ export default function termsPage() {
                             <li>Caso for fazer selfhosting/clone do Searcher, você <strong>É OBRIGADO</strong> a seguir a licença do repositório.</li>
                             <li>Você está sujeito a um aviso de direitos autorais caso quebre a licença do código fonte do Searcher.</li>
                         </ul>
-                        <h3 style={{ textAlign: "left", marginTop: "8px" }}>&bull; Proteções no código fonte</h3>
+                        <h3>&bull; Proteções no código fonte</h3>
                         <ul>
                             <li>Você deve <strong>deixar as alterações públicas</strong>.</li>
                             <li>Você não pode <strong>publicar o código com uma licença diferente</strong>.</li>
