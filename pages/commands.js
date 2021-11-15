@@ -45,7 +45,7 @@ export default function commandsPage(props) {
                         }
                         $("#commands").append(`
                             <div class="menu-title">
-                                <h2>${command.name} <span id="open_symbol">+</span></h2>
+                                <h2><span>+</span> ${command.name}</h2>
                                 <div class="menu-content">
                                     <p>${command.description}</p>
                                     <p>Como usar: <strong>/${command.name}</strong></p>

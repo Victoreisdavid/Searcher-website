@@ -42,6 +42,19 @@ ul {
     }
 }
 
+
+@keyframes smooth-slide {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
 .smooth_fade {
     animation: smooth 1.5s ease-in-out;
 }
@@ -183,6 +196,7 @@ main > div.content > h2:first-of-type {
 
 .menu-content {
     display: none;
+    animation: smooth-slide 120ms ease-in-out;
 }
 
 footer {
