@@ -188,6 +188,7 @@ main > div.content > h2:first-of-type {
     box-shadow: 0px 0px 1px var(--Outer_Space_Crayola);
     border-radius: 6px;
     margin-bottom: 16px;
+    cursor: pointer;
 }
 
 .menu-title > h2, h4 {
