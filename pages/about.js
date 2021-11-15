@@ -1,4 +1,5 @@
 import Img from "next/image"
+import Head from "next/head"
 import command_ex from "../imagens/exemplos/command.jpg"
 import search_ex from "../imagens/exemplos/search_example.jpg"
 import result_ex from "../imagens/exemplos/result_example.jpg"
@@ -6,6 +7,9 @@ import result_ex from "../imagens/exemplos/result_example.jpg"
 export default function AboutPage() {
     return (
         <>
+            <Head>
+                <title>Searcher - Sobre.</title>
+            </Head>
             <header>
                 <div className="content" style={{ marginTop: "0px" }}>
                     <h1>Conheça o Searcher</h1>

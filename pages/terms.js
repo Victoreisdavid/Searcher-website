@@ -1,6 +1,11 @@
+import Head from "next/head"
+
 export default function TermsPage() {
     return (
         <>
+            <Head>
+                <title>Searcher - termos.</title>
+            </Head>
             <header>
                 <div className="content" style={{ marginTop: "0px" }}>
                     <h1>Termos</h1>

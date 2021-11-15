@@ -1,4 +1,5 @@
 import Script from "next/script"
+import Head from "next/head"
 
 export async function getStaticProps() {
     const URL = `https://discord.com/api/v9/applications/886046032616624138/commands`
@@ -19,6 +20,9 @@ export async function getStaticProps() {
 export default function commandsPage(props) {
     return (
         <>
+            <Head>
+                <title>Searcher - Lista de comandos.</title>
+            </Head>
             <header>
                 <div className="content" style={{ marginTop: "0px" }}>
                     <h1>Lista de comandos</h1>

@@ -1,6 +1,11 @@
+import Head from "next/head"
+
 export default function IndexPage() {
     return (
         <>
+            <Head>
+                <title>Searcher - faça pesquisas no discord.</title>
+            </Head>
             <header>
                 <div className="content smooth_fade">
                     <h1>Searcher</h1>
